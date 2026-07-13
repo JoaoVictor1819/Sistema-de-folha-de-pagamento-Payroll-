@@ -18,6 +18,7 @@ public enum TipoContrato {
         this.meta = meta;
     }
 
+<<<<<<< HEAD
     public void DirecionandoBeneficios(){
         TipoContrato tipoContrato = TipoContrato.CLT;
 
@@ -48,4 +49,11 @@ public enum TipoContrato {
     public double getMeta() {
         return meta;
     }
+=======
+    public void TipoContrato(){
+
+    }
+
+
+>>>>>>> e26bb22016fb4c9725039233c54db9273159c15d
 }
