@@ -4,7 +4,7 @@ public abstract class Funcionario {
     protected String nome;
     protected int documento;
 
-    public abstract void calcularSalario();
+    public abstract double calcularSalario();
 
 
     public Funcionario(String nome, int documento) {

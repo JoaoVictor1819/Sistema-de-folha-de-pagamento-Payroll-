@@ -1,5 +1,5 @@
 package com.empresa.payroll.contratos;
 
 public interface Bonificavel {
-    public abstract void calcularBonus();
+    public abstract double calcularBonus();
 }
