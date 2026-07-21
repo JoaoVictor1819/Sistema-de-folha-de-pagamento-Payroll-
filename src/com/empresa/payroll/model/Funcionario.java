@@ -1,30 +1,20 @@
 package com.empresa.payroll.model;
 
-public abstract class Funcionario {
+import com.empresa.payroll.contratos.Bonificavel;
+import com.empresa.payroll.contratos.Contratavel;
+
+public abstract class Funcionario  {
     protected String nome;
+    protected String dataAdmissao;
     protected int documento;
+    protected double salario;
 
-    public abstract double calcularSalario();
-
-
-    public Funcionario(String nome, int documento) {
+    public Funcionario(String nome, String dataAdmissao,int documento, double salario) {
         this.nome = nome;
+        this.dataAdmissao = dataAdmissao;
         this.documento = documento;
+        this.salario = salario;
     }
 
-    public int getDocumento() {
-        return documento;
-    }
 
-    public void setDocumento(int documento) {
-        this.documento = documento;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
 }
